@@ -1,0 +1,30 @@
+/* print styles */
+@media print {
+  body {
+    background-color: #ffffff !important;
+  }
+  [data-cy='footer'],
+  nav,
+  [name='reportHeader'],
+  footer,
+  [data-cy='backButton'],
+  [data-cy='downloadPDF'] {
+    display: none !important;
+  }
+
+  thead {
+    display: table-header-group;
+  }
+  tfoot {
+    display: table-footer-group;
+  }
+  tr {
+    page-break-inside: avoid;
+  }
+
+  #printContainer {
+    display: block !important;
+    box-shadow: none;
+    height: auto;
+  }
+}
