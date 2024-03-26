@@ -1,0 +1,27 @@
+.safe--area {
+  padding-top: constant(safe-area-inset-top);
+  padding-top: env(safe-area-inset-top);
+  --ion-safe-area-top: 20px;
+  --ion-safe-area-bottom: 20px;
+}
+
+.MuiPopover-root.MuiModal-root *::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+.MuiPopover-root.MuiModal-root *::-webkit-scrollbar-track {
+  background-color: inherit;
+  border-radius: 6px;
+}
+
+/* Customize scrollbar handle */
+.MuiPopover-root.MuiModal-root *::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+}
+
+/* Customize scrollbar track on hover */
+.MuiPopover-root.MuiModal-root *::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+}

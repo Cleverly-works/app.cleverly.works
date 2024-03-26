@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'lato';
+  src: url('./Lato-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'lato';
+  src: url('./Lato-Bold.ttf') format('truetype');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Nunito-Regular';
+  src: url('./Nunito-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Nunito-SemiBold';
+  src: url('./Nunito-SemiBold.ttf') format('truetype');
+  font-weight: bold;
+}

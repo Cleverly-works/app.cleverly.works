@@ -1,0 +1,3 @@
+User-agent: *
+Sitemap: app.cleverly.works/sitemap.xml
+Disallow:
